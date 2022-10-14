@@ -1,3 +1,6 @@
+
+import javax.swing.JOptionPane;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -17,10 +20,15 @@ public class personalcocina {
     int salario;
     
     
-    public void agregar(){
+     public void agregar(){
+        nombre = JOptionPane.showInputDialog("introduzca su edad por favor ");
+        edad = Integer.parseInt(JOptionPane.showInputDialog("introduzca su edad por favor "));
+        
         
     }
-    public void eliminar(){
+    public void mostrar(){
+        System.out.println(nombre);
+        System.out.println(edad);
         
     }
     public void modificar(){
